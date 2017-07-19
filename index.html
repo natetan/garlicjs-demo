@@ -22,9 +22,62 @@
 
 		<div id="main">
 			<div id="main-content" class="bg-success">
+
+				<!-- <h1 id="main-header">Testing Garlic Form</h1>
+				<div id="form">
+					<form id="form-data">
+						<h3 class="header-name">Comments</h3>
+						<textarea name="comments" id="comments-box" cols="30" rows="10" placeholder="Enter text here..."></textarea>
+					</form>
+				</div> -->
+				
 				<h1 id="main-header">Testing Garlic Form</h1>
-				<div id="form"></div>
-				<!-- <button id="verify-button"><span class="verify">Verify</span></button> -->
+				<form data-persist="garlic">
+					<div class="form-group">
+						<div class="form-sections">
+							<label for="comments" class="labels">Comments</label>
+							<textarea rows="3" name="comments" class="form-control text-area"></textarea>
+						</div>
+						
+						<div class="form-sections">
+							<label for="blf" class="labels">Booked Load Factor</label>
+							<textarea rows="3" name="blf" class="form-control text-area"></textarea>
+						</div>	
+						
+						<div class="form-sections">
+							<label for="atc" class="labels">Air Traffic Control (ATC)</label>
+							<textarea rows="3" name="atc" class="form-control text-area"></textarea>
+						</div>	
+						
+						<div class="form-sections">
+							<label for="weather" class="labels">Weather (WX)</label>
+							<textarea rows="3" name="weather" class="form-control text-area"></textarea>
+						</div>	
+						
+						<div class="form-sections">
+							<label for="diversions" class="labels">Diversions</label>
+							<textarea rows="3" name="diversions" class="form-control text-area"></textarea>
+						</div>	
+						
+						<div class="form-sections">
+							<label for="cancellations" class="labels">Cancellations (XLS)</label>
+							<textarea rows="3" name="cancellations" class="form-control text-area"></textarea>
+						</div>	
+						
+						<div class="form-sections">
+							<label for="ots" class="labels">Out of Service (OTS)</label>
+							<textarea rows="3" name="ots" class="form-control text-area"></textarea>
+						</div>	
+						
+						<div class="form-sections">
+							<label for="spares" class="labels">Spares</label>
+							<textarea rows="3" name="spares" class="form-control text-area"></textarea>
+						</div>	
+
+						<button type="submit" id="verify-button" class="btn"><span class="verify">Verify</span></button>
+					</div>
+				</form>
+
 			</div>
 		</div>
 
